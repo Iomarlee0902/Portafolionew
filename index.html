@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Portafolio</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar grid--container">
+      <a class="navbar__logo navbar__link2" href="#"><img class="logo__ioruch" src="assets/img/Logo-io.png" alt="logo">
+        Ioruch</a>
+
+      <div class="navbar__menu">
+        <i class='bx bx-x btn__close navbar__icon'></i>
+
+        <ul class="navbar__list">
+          <li class="navbar__item"><a class="navbar__link" href="#home">Inicio</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#about">Acerca de Mí</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#projects">Portafolio</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+
+      <i class='bx bx-menu  btn__open navbar__icon'></i>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="home">
+      <div class="home__container grid--container">
+        <div class="home__image">
+          <span></span>
+          <img class="photo__ioruch" src="assets/img/Io.jpg" alt="profile photo">
+        </div>
+
+        <ul class="home__social">
+          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-linkedin'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-instagram'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-facebook'></i></a></li>
+        </ul>
+
+        <div class="home__info">
+          <h1 class="home__title">👋🏽🧑🏽 Hola, soy Iomar <br> Rubén</h1>
+          <p class="home__description">
+            Soy un desarrollador apasionado, creo diseño y desarrollo de aplicaciones web.
+          </p>
+        </div>
+
+        <div class="home__buttons">
+          <button class="btn btn--primary" type="button">Descarga CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <h2 class="section__title">Acerca de Mí</h2>
+
+      <div class="about__container grid--container">
+        <p class="about__description">
+          ¡Mucho gusto! 😃 mi nombre completo es <b>Iomar Rubén Chiclla Huayhua</b>, soy de la ciudad de Arequipa
+          departamento del Perú, desde muy chico me vi atraído por la tecnología y ciencias de computación, es por ello
+          que estudié programación web full-stack en la institución de Academlo, mi intención es poner en
+          práctica todo el conocimiento que he adquirido para realizar proyectos y satisfacer las necesidades
+          empresariales.
+        </p>
+        <h2 class="section__title">Estudios academicos</h2>
+        <div class="about__container grid--container">
+          <a target="_blank" href="https://www.academlo.com/"><img class="academlo__img"
+              src="/assets/img/logo_academlo.png" alt="Academlo"></a>
+          <p class="p__year">2022-2022</p>
+        </div>
+
+        <div class="about__skills grid--container">
+          <div class="about__cards">
+            <!--Card 1 -->
+            <div class="about__card card__html5">
+              <i class='bx bxl-html5'></i>
+
+              <h3 class="about__card-title">HTML5</h3>
+              <p>Habilidades de maquetado.</p>
+            </div>
+            <!--Card 2 -->
+            <div class="about__card card__css3">
+              <i class='bx bxl-css3'></i>
+
+              <h3 class="about__card-title">CSS3</h3>
+              <p>Diseño e implementacion de estilos.</p>
+            </div>
+            <!--Card 3 -->
+            <div class="about__card card__java">
+              <i class='bx bxl-javascript'></i>
+
+              <h3 class="about__card-title">JavaScript</h3>
+              <p>Manejo de javascript como lenguaje de programacion.</p>
+            </div>
+          </div>
+
+          <div class="about__tags">
+            <h3 class="about__tags-title">Habilidades</h3>
+            <div class="about__tags-container">
+              <span class="about__tag">Responsable</span>
+              <span class="about__tag">Trabajo en equipo</span>
+              <span class="about__tag">Creativo</span>
+              <span class="about__tag">Puntual</span>
+              <span class="about__tag">Proactivo</span>
+              <span class="about__tag">Autodidacta</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="projects" class="projects section">
+      <h2 class="section__title">Proyectos</h2>
+
+      <div class="projects__container grid--container">
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project1.jpg" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name info">Proyecto 1</h3>
+              <p class="projects__description info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project2.png" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name info">Proyecto 2</h3>
+              <p class="projects__description info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project3.jpg" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name info">Proyecto 3</h3>
+              <p class="projects__description info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project4.png" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name info">Proyecto 4</h3>
+              <p class="projects__description info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2 class="section__title">Contacto</h2>
+
+      <div class="contact__container grid--container">
+        <div class="contact__info">
+          <h3 class="contact__info-title info">Información de contacto</h3>
+          <p class="contact__info-description info">
+            Comunícate conmigo 👇😉.
+          </p>
+
+          <address class="contatc__info-data">
+            <div class="contact__info-item">
+              <i class='bx bx-phone info'></i>
+
+              <span class="contact__info-nomber info">
+                +51 902 439 832
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class='bx bxs-envelope info'></i>
+
+              <span class="contact__info-mail">
+                <a class="info" href="mailto:iomarcitoacuario@gmail.com">
+                  iomarcitoacuario@gmail.com
+                </a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class='bx bx-map info'></i>
+
+              <span class="contact__info-map info">
+                Arequipa, Perú.
+              </span>
+            </div>
+          </address>
+        </div>
+
+        <div class="contact__form">
+          <h3 class="contact__form-title info">Enviar mensaje</h3>
+
+          <form id="form" class="contact__form-container">
+
+            <div class="contact__form-group">
+              <label for="name" class="contact__form-label info">Nombre</label>
+              <input type="text" id="name" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-group">
+              <label for="email" class="contact__form-label info">Correo</label>
+              <input type="email" id="email" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-group">
+              <label for="message" class="contact__form-label info">Mensaje</label>
+              <textarea id="message" cols="30" rows="10" class="contact__form-input"></textarea>
+            </div>
+
+            <button type="submit" class="btn contact__form-button">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer section">
+    <div class="footer__container grid--container">
+      <div class="footer__info">
+        <h3 class="footer__title">Iomar Rubén</h3>
+        <p class="footer__description">
+          Soy desarrollador web, apasionado por la tecnología y la programación.
+        </p>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Redes Sociales</h3>
+
+        <ul class="footer__socail-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-facebook'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-instagram'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-twitter'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-linkedin'></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer__copy">
+      &copy; 2022, Todos los derechos reservados
+    </p>
+  </footer>
+
+  <script>
+    const btnMenu = document.querySelector('.btn__open')
+    const btnClose = document.querySelector('.btn__close')
+    const Menu = document.querySelector('.navbar__menu')
+
+
+    btnMenu.onclick = function () {
+      Menu.classList.add('show--menu')
+    }
+
+    btnClose.onclick = function () {
+      Menu.classList.remove('show--menu')
+    }
+  </script>
+
+</body>
+
+</html>
